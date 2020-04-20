@@ -6,7 +6,7 @@ def scraper(url, resp):
     return [link for link in links if is_valid(link)]
 
 def extract_next_links(url, resp):
-    # Implementation requred.
+    
     return list()
 
 def is_valid(url):
