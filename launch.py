@@ -5,7 +5,7 @@ from utils.server_registration import get_cache_server
 from utils.config import Config
 from crawler import Crawler
 
-HEADER = ""
+headers = {'User-Agent':"60199009,19024132,54942538,51026975"}
 
 def main(config_file, restart):
     cparser = ConfigParser()
